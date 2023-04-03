@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+   background-color: #EBE8DC;
+}
+
+.img {
+    height: 86%;
+    position: absolute;
+    left: 35%;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    margin: 40px 0;
+    color: #24242D;
+}
+
+a {
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    background: none;
+    color: #24242D;
+    width: 50px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+div {
+    height: 10vh;
+    display: flex;
+}
+
+.bi {
+    font-size: 30px;
+}
+
+.blanco{
+    color: #D8D6D0;
+}
+
+.caja1 {
+    padding: 1px;
+    font-size: 20px;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+    color: #24242D;
+    background-color: #D8D6D0;
+    width: 20%;
+    left: 29%;
+    top: 20vh;
+    z-index: -1;
+}
+
+.caja2 {
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #24242D;
+    color: #E6E6E6;
+    width: 42%;
+    height: 15%;
+    top: 40%;
+    z-index: -1;
+    padding-left: 60px;
+    padding-right: 5px;
+}
+
+.atras {
+    font-size: 55px;
+    position: absolute;
+    color: #EBE8DC;
+    background-color: #D8D6D0;
+    width: 47%;
+    height: 15%;
+    top: 40%;
+    left: 53%;
+    z-index: -2;
+}
+
+.caja3 {
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #24242D;
+    width: 55%;
+    height: 15vh;
+    top: 40%;
+    left: 45%;
+    z-index: -1;
+}
+
+.caja4 {
+    padding: 1vh;
+    font-size: 20px;
+    justify-content: right;
+    align-items: center;
+    position: absolute;
+    background-color: #24242D;
+    color: #E6E6E6;
+    width: 19%;
+    left: 54%;
+    top: 68%;
+    z-index: -1;
+}
+
+.f1{
+    display: flex;
+    font-size: 50px;
+    position: absolute;
+    color: #24242D;
+    top: 80%;
+    left: 12%;
+    z-index: 1;
+}
+
+.f2{
+    display: flex;
+    font-size: 20px;
+    position: absolute;
+    color: #24242D;
+    top: 85%;
+    left: 12%;
+    z-index: 1;
+    margin-top: 3vh;
+}
+
+.f3{
+    display: flex;
+    font-size: 50px;
+    position: absolute;
+    color: #E6E6E6;
+    top: 80%;
+    left: 44%;
+    z-index: 1;
+}
+
+.f4 {
+    display: flex;
+    font-size: 20px;
+    position: absolute;
+    color: #E6E6E6;
+    top: 85%;
+    left: 44%;
+    z-index: 1;
+    margin-top: 3vh;
+}
+
+.f5 {
+    display: flex;
+    position: absolute;
+    color:  #24242D;
+    top: 80%;
+    left: 75%;
+    z-index: 1;
+}
+
+.f6 {
+    display: flex;
+    width: auto;
+    font-size: 20px;
+    position: absolute;
+    color: #24242D;
+    top: 85%;
+    left: 75.5%;
+    z-index: 1;
+    margin-top: 4vh;
+}
